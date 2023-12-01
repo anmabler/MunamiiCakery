@@ -93,8 +93,26 @@ header, footer{
     min-height: 80vh;
     margin-top: 0;
 }
-.contact-page > section > h4{
+.contact-page > section > h4, .about-page > div > h4{
     margin: 0;
     padding-top:2rem; 
 }
+.about-page{
+    background-color: rgb(228, 209, 225);
+    background-image: url("/images/holly-stratton-ttY5ZD2O3h8-unsplash.jpg");
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    min-height: 80vh;
+    /* padding: 0 30vw; */
+    
+}
+.about-container{
+    background-color: rgba(255, 241, 230, 0.301);
+    text-align: center;
+    padding:10vw;
+    min-height: 80vh;
+}
+
+
 
