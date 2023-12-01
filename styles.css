@@ -59,9 +59,11 @@ header, footer{
     justify-content: space-evenly;
 }
 .product-item{
-    border: 2px solid black;
+    /* border: 2px solid #DFE7FD; */
     margin: 1rem;
-    padding: 0.5rem;
+    padding: 1rem;
+    background-color: #dfe7fd8f;
+    border-radius: 0.5rem;
 }
 .product-heading{
     text-align: center;
@@ -71,6 +73,14 @@ header, footer{
     text-align: center;
 }
 .product-page{
+    background-image: url("/images/tangerine-newt-ogqaFRY7hAc-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
     min-height: fit-content;
-}
 
+}
+.product-item > img{
+    border-radius: 0.5rem;
+    height: auto;
+    width: 30vh;
+}
