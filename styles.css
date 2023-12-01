@@ -1,0 +1,16 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+.social-logo{
+    height: 5vh;
+    width: auto;
+}
