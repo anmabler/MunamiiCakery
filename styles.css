@@ -84,3 +84,17 @@ header, footer{
     height: auto;
     width: 30vh;
 }
+.contact-page{
+    background-image: url("/images/j-lee-5WFfI63aEBo-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 0 30vw;
+    text-align: center;
+    min-height: 80vh;
+    margin-top: 0;
+}
+.contact-page > section > h4{
+    margin: 0;
+    padding-top:2rem; 
+}
+
