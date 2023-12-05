@@ -46,8 +46,8 @@ header, footer{
     padding: 2rem 0;
 }
 .home-container > img{
-    height: 45vh;
-    width: auto;   
+    height: auto;
+    width: 45vw;   
 }
 .home-container > p{
     max-width: 30%;
@@ -125,4 +125,27 @@ header, footer{
     height: 100%;
 }
 
-
+/* This is when the nav menu starts to disappear */
+@media only screen and (max-width: 674px) {
+    nav{
+        flex-direction: column;
+        height: auto;
+    }
+    .nav-link{
+        margin: 0.3rem;
+    }
+    footer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .product-item > img{
+        height: 30vh;
+        width: auto;
+    }
+    .about-page{
+        background-size:cover;
+    }
+    .about-container{
+        background-color:rgba(255, 241, 230, 0.507);
+    }
+}
