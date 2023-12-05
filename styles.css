@@ -42,7 +42,8 @@ header, footer{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 90vh;
+    /* min-height: 90vh; */
+    padding: 2rem 0;
 }
 .home-container > img{
     height: 45vh;
@@ -119,6 +120,7 @@ header, footer{
 }
 
 .nav-link:hover{
+    /* ! text jumps up to top when hovering */
     background-color: rgb(129, 117, 127);
     height: 100%;
 }
