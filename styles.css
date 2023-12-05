@@ -37,7 +37,7 @@ footer {
 }
 
 .home-container {
-  background-image: url("/images/alexander-grey-jYbKxinWQGk-unsplash.jpg");
+  background-image: url("images/alexander-grey-jYbKxinWQGk-unsplash.jpg");
   background-position: center;
   background-size: cover;
   display: flex;
@@ -76,7 +76,7 @@ footer {
   text-align: center;
 }
 .product-page {
-  background-image: url("/images/j-lee-5WFfI63aEBo-unsplash.jpg");
+  background-image: url("images/j-lee-5WFfI63aEBo-unsplash.jpg");
   background-position: center;
   background-size: cover;
   min-height: fit-content;
@@ -87,7 +87,7 @@ footer {
   width: 30vh;
 }
 .contact-page {
-  background-image: url("/images/j-lee-5WFfI63aEBo-unsplash.jpg");
+  background-image: url("images/j-lee-5WFfI63aEBo-unsplash.jpg");
   background-position: center;
   background-size: cover;
   padding: 0 30vw;
@@ -102,7 +102,7 @@ footer {
 }
 .about-page {
   background-color: rgb(228, 209, 225);
-  background-image: url("/images/holly-stratton-ttY5ZD2O3h8-unsplash.jpg");
+  background-image: url("images/holly-stratton-ttY5ZD2O3h8-unsplash.jpg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -118,6 +118,7 @@ footer {
 
 .nav-link {
   padding: 0 2rem;
+  color: #363e55
 }
 
 .nav-link:hover {
