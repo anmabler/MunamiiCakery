@@ -1,151 +1,152 @@
-@import url('https://fonts.googleapis.com/css2?family=Delius+Unicase&family=Rancho&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Delius+Unicase&family=Rancho&display=swap");
 
-body{
-    box-sizing: border-box;
-    margin: 0;
-    font-family: 'Rancho', cursive;
-    font-size: x-large;
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Rancho", cursive;
+  font-size: x-large;
 }
-nav{
-    font-family: 'Delius Unicase', cursive;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 5rem;
+nav {
+  font-family: "Delius Unicase", cursive;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 5rem;
 }
-nav > a:visited, .product-links > a{
-    color: #363e55;
-}
-
-nav > a, .product-links > a{
-    text-decoration: none;
-    
-}
-footer{
-    padding-top: 1vh;
-    display: flex;
-    justify-content: space-around;
-}
-header, footer{
-    background-color: rgb(228, 209, 225);
-}
-.social-logo{
-    height: 5vh;
-    width: auto;
+nav > a:visited,
+.product-links > a {
+  color: #363e55;
 }
 
-.home-container{
-    background-image: url("/images/alexander-grey-jYbKxinWQGk-unsplash.jpg");
-    background-position: center;
-    background-size: cover;
-    display: flex; 
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    /* min-height: 90vh; */
-    padding: 2rem 0;
+nav > a,
+.product-links > a {
+  text-decoration: none;
 }
-.home-container > img{
-    height: auto;
-    max-width: 45vw;   
+footer {
+  padding-top: 1vh;
+  display: flex;
+  justify-content: space-around;
 }
-.home-container > p{
-    max-width: 30%;
+header,
+footer {
+  background-color: rgb(228, 209, 225);
 }
-
-.product-container{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-.product-item{
-    /* border: 2px solid #DFE7FD; */
-    margin: 1rem;
-    padding: 1rem;
-    background-color: #dfe7fd8f;
-    border-radius: 0.5rem;
-}
-.product-heading{
-    text-align: center;
-    font-size: 4rem;
-}
-.product-links{
-    text-align: center;
-}
-.product-page{
-    background-image: url("/images/j-lee-5WFfI63aEBo-unsplash.jpg");
-    background-position: center;
-    background-size: cover;
-    min-height: fit-content;
-
-}
-.product-item > img{
-    border-radius: 0.5rem;
-    height: auto;
-    width: 30vh;
-}
-.contact-page{
-    background-image: url("/images/j-lee-5WFfI63aEBo-unsplash.jpg");
-    background-position: center;
-    background-size: cover;
-    padding: 0 30vw;
-    text-align: center;
-    min-height: 80vh;
-    margin-top: 0;
-}
-.contact-page > section > h4, .about-page > div > h4{
-    margin: 0;
-    padding-top:2rem; 
-}
-.about-page{
-    background-color: rgb(228, 209, 225);
-    background-image: url("/images/holly-stratton-ttY5ZD2O3h8-unsplash.jpg");
-    background-position: center;
-    background-size:contain;
-    background-repeat: no-repeat;
-    min-height: 80vh;
-    /* padding: 0 30vw; */
-    
-}
-.about-container{
-    background-color: rgba(255, 241, 230, 0.301);
-    text-align: center;
-    padding:10vw;
-    min-height: 80vh;
+.social-logo {
+  height: 5vh;
+  width: auto;
 }
 
-.nav-link{
-    padding: 0 2rem;
+.home-container {
+  background-image: url("/images/alexander-grey-jYbKxinWQGk-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* min-height: 90vh; */
+  padding: 2rem 0;
+}
+.home-container > img {
+  height: auto;
+  max-width: 45vw;
+}
+.home-container > p {
+  max-width: 30%;
 }
 
-.nav-link:hover{
-    /* ! text jumps up to top when hovering */
-    background-color: rgb(129, 117, 127);
-    height: 100%;
+.product-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.product-item {
+  /* border: 2px solid #DFE7FD; */
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #dfe7fd8f;
+  border-radius: 0.5rem;
+}
+.product-heading {
+  text-align: center;
+  font-size: 4rem;
+}
+.product-links {
+  text-align: center;
+}
+.product-page {
+  background-image: url("/images/j-lee-5WFfI63aEBo-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: fit-content;
+}
+.product-item > img {
+  border-radius: 0.5rem;
+  height: auto;
+  width: 30vh;
+}
+.contact-page {
+  background-image: url("/images/j-lee-5WFfI63aEBo-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 0 30vw;
+  text-align: center;
+  min-height: 80vh;
+  margin-top: 0;
+}
+.contact-page > section > h4,
+.about-page > div > h4 {
+  margin: 0;
+  padding-top: 2rem;
+}
+.about-page {
+  background-color: rgb(228, 209, 225);
+  background-image: url("/images/holly-stratton-ttY5ZD2O3h8-unsplash.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 80vh;
+  /* padding: 0 30vw; */
+}
+.about-container {
+  background-color: rgba(255, 241, 230, 0.301);
+  text-align: center;
+  padding: 10vw;
+  min-height: 80vh;
+}
+
+.nav-link {
+  padding: 0 2rem;
+}
+
+.nav-link:hover {
+  /* ! text jumps up to top when hovering */
+  background-color: rgb(129, 117, 127);
+  height: 100%;
 }
 
 /* This is when the nav menu starts to disappear */
 @media only screen and (max-width: 674px) {
-    nav{
-        flex-direction: column;
-        height: auto;
-    }
-    .nav-link{
-        margin: 0.3rem;
-    }
-    footer{
-        flex-direction: column;
-        align-items: center;
-    }
-    .product-item > img{
-        height: 30vh;
-        width: auto;
-    }
-    .about-page{
-        background-size:cover;
-    }
-    .about-container{
-        background-color:rgba(255, 241, 230, 0.507);
-    }
+  nav {
+    flex-direction: column;
+    height: auto;
+  }
+  .nav-link {
+    margin: 0.3rem;
+  }
+  footer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .product-item > img {
+    height: 30vh;
+    width: auto;
+  }
+  .about-page {
+    background-size: cover;
+  }
+  .about-container {
+    background-color: rgba(255, 241, 230, 0.507);
+  }
 }
