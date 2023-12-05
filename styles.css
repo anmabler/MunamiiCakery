@@ -47,7 +47,7 @@ header, footer{
 }
 .home-container > img{
     height: auto;
-    width: 45vw;   
+    max-width: 45vw;   
 }
 .home-container > p{
     max-width: 30%;
