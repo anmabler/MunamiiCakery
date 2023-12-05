@@ -114,5 +114,13 @@ header, footer{
     min-height: 80vh;
 }
 
+.nav-link{
+    padding: 0 2rem;
+}
+
+.nav-link:hover{
+    background-color: rgb(129, 117, 127);
+    height: 100%;
+}
 
 
