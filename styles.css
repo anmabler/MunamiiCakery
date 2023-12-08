@@ -67,6 +67,7 @@ footer {
   padding: 1rem;
   background-color: #dfe7fd8f;
   border-radius: 0.5rem;
+  box-shadow: 2px 2px 10px ;
 }
 .product-heading {
   text-align: center;
